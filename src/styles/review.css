@@ -1,0 +1,31 @@
+.review-container {
+  margin: 0px 10px;
+}
+
+.info-review {
+  color: var(--gray-text);
+  text-align: left;
+  margin-top: 5px;
+}
+
+.counter-character {
+  text-align: right;
+  color: var(--blue-links);
+  margin-bottom: -10px;
+}
+
+.btn-review {
+  display: block;
+  margin: auto;
+  width: 250px;
+  margin-top: 70px;
+}
+
+@media (max-width: 750px) {
+  .btn-contact {
+    display: inline;
+  }
+  .msg-testimonial {
+    height: 90px !important;
+  }
+}

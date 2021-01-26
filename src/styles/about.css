@@ -1,0 +1,290 @@
+.about-container {
+  height: 100%;
+  padding: 20px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -20px;
+}
+
+.social {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.social a {
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 50px;
+  z-index: 1000;
+}
+
+.social a i {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.social a:nth-child(1) {
+  color: var(--color-codepen);
+}
+
+.social a:nth-child(2) {
+  color: var(--color-github);
+}
+
+.social a:nth-child(3) {
+  color: var(--blue-links);
+}
+
+.user-photo img {
+  /* border-radius: 50%;
+  box-shadow: 0px -15px 15px var(--ligth-border),
+    inset 0px -15px 15px var(--ligth-border), 0px 15px 15px var(--dark-border),
+    inset 0px 15px 15px var(--dark-border); */
+  height: 350px;
+  object-fit: scale-down;
+  width: 350px;
+}
+
+.user-info a:nth-last-of-type(1) {
+  margin-left: 10px;
+}
+
+.description p {
+  font-size: 18px !important;
+  text-align: justify;
+  width: 80%;
+}
+
+.my-skills {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.my-skills button {
+  height: 50px;
+  margin: 15px 10px;
+  padding: 10px;
+}
+
+#skills {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+#skills img {
+  width: 50px;
+  height: 50px;
+}
+
+#experience {
+  padding: 40px 0px;
+}
+
+#education {
+  padding: 40px 0px;
+}
+
+.grid-jobs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.grid-jobs > div {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  flex: 1;
+  height: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
+  min-width: 400px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.date-job {
+  color: var(--blue-links) !important;
+}
+
+.grid-jobs > div p {
+  margin: 5px;
+}
+
+.left {
+  text-align: right;
+}
+
+.left:last-child {
+  max-width: 540px !important;
+}
+
+.right {
+  margin-top: 200px;
+  text-align: left;
+  justify-content: flex-start !important;
+}
+
+.left::after {
+  border-left: 1px solid var(--ligth-border);
+  content: "";
+  height: 200px;
+  position: absolute;
+  right: -20px;
+  width: 2px;
+}
+
+.left-job::after {
+  color: var(--blue-links);
+  content: " \f0b1";
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.left-education::after {
+  color: var(--blue-links);
+  content: "\f19d";
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.right::after {
+  border-left: 1px solid var(--ligth-border);
+  content: "";
+  height: 200px;
+  left: -30px;
+  position: absolute;
+  width: 2px;
+}
+
+.right-job::after {
+  color: var(--blue-links);
+  content: "\f0b1";
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.right-education::after {
+  color: var(--blue-links);
+  content: "\f19d";
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.delete-goal {
+  color: var(--error-text);
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+@media (max-width: 550px) {
+  .about-me {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  #skills {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .my-skills {
+    width: 100%;
+  }
+
+  .left:last-child {
+    width: auto;
+  }
+
+  .about-container {
+    padding: 0;
+  }
+
+  .description {
+    width: 90%;
+  }
+
+  .description p {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .user-info {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .user-photo {
+    text-align: center;
+  }
+
+  .user-photo img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .my-skills button {
+    margin: 10px 0px;
+  }
+
+  .grid-jobs {
+    flex-direction: column;
+  }
+
+  .grid-jobs > div {
+    height: auto;
+    min-width: 250px;
+    max-width: 340px;
+    margin: 10px auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .right {
+    margin-top: 0px;
+  }
+
+  .right::after {
+    content: "";
+    display: none;
+  }
+
+  .right-job::after {
+    content: "";
+    margin: 0;
+    padding: 0;
+  }
+
+  .left::after {
+    content: "";
+    display: none;
+  }
+
+  .left-job::after {
+    content: "";
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1048px) {
+  .right {
+    margin-top: 20px;
+  }
+}

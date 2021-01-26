@@ -1,0 +1,85 @@
+.auth-container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  place-items: center;
+  text-align: center;
+  width: 100vw;
+}
+
+.content {
+  padding: 20px 20px;
+  width: 330px;
+}
+
+.content h1 {
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.content p {
+  text-align: justify;
+}
+
+form p {
+  color: var(--error-text);
+  font-size: 14px;
+  margin: 0;
+  text-align: left;
+}
+
+form .field {
+  display: flex;
+  height: 50px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+form .field input {
+  height: 100%;
+  width: 100%;
+}
+form .field span {
+  line-height: 50px;
+  position: absolute;
+  width: 50px;
+  margin-left: 0;
+}
+
+form .field .eyes {
+  line-height: 50px;
+  position: absolute;
+  width: 50px;
+  margin-left: 280px;
+  cursor: pointer;
+}
+
+form .forgot-password {
+  margin: 10px 0 10px 5px;
+  text-align: left;
+}
+
+form button {
+  height: 50px;
+  margin: 15px 0;
+  width: 100%;
+}
+
+form .signup-link {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+@media (width: 320px) {
+  form .field .eyes {
+    margin-left: 230px;
+  }
+}
+
+@media (width: 280px) {
+  form .field .eyes {
+    margin-left: 190px;
+  }
+}

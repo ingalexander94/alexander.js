@@ -1,0 +1,129 @@
+.contact-container {
+  margin: 0px 10px;
+}
+
+.info-contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-contact > div {
+  padding: 20px 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.info-contact > div i {
+  color: var(--blue-links);
+}
+
+.info-contact > div * {
+  margin: 5px;
+}
+
+.form-contact {
+  margin: 0 20px;
+}
+
+.inputs-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-contact {
+  padding: 20px;
+  width: 50%;
+}
+
+.textarea-contact {
+  padding: 20px;
+  width: 50%;
+}
+
+.field-contact {
+  display: flex;
+  height: 50px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.field-contact input,
+.field-contact select,
+.field-contact textarea {
+  height: 100%;
+  resize: none;
+  width: 100%;
+  z-index: 1;
+}
+
+.field-contact textarea {
+  height: 155px;
+  padding-top: 15px;
+}
+
+.field-contact span {
+  color: var(--gray-text);
+  line-height: 50px;
+  margin-left: 20px;
+  position: absolute;
+  width: 50px;
+  z-index: 2;
+}
+
+.btn-contact {
+  float: right;
+  margin-right: 20px;
+  width: 200px;
+}
+
+@media (max-width: 750px) {
+  .info-contact {
+    flex-direction: column;
+  }
+
+  .contact-container {
+    margin: 0px;
+  }
+
+  .info-contact > div {
+    margin: 10px;
+    min-width: 200px;
+    width: auto;
+  }
+
+  .inputs-form {
+    flex-direction: column;
+    justify-content: stretch;
+    margin-bottom: 50px;
+  }
+
+  .input-contact {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .textarea-contact {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .field-contact span {
+    margin-left: 0;
+  }
+
+  .field-contact textarea {
+    height: 100px;
+    padding-top: 15px;
+  }
+
+  .form-contact {
+    text-align: center;
+  }
+
+  .btn-contact {
+    float: none;
+    margin: 40px 0px;
+  }
+}

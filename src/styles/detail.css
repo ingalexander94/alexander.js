@@ -1,0 +1,130 @@
+.detailApp-container {
+  margin: 0px 20px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.menu-app {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.menu-app .preview {
+  margin: 15px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  background: var(--dark-background);
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  color: var(--blue-links);
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 2px 2px 5px var(--dark-border), -3px -3px 7px var(--ligth-border);
+}
+
+.menu-app .preview:focus {
+  color: var(--blue-links);
+  box-shadow: inset 2px 2px 5px var(--dark-border),
+    inset -3px -3px 7px var(--ligth-border);
+}
+
+.menu-app .go-back {
+  margin: 15px 10px;
+  height: 50px;
+  width: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--dark-background);
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: var(--gray-text);
+  cursor: pointer;
+  font-weight: 600;
+  z-index: 1000;
+  box-shadow: 2px 2px 5px var(--dark-border), -3px -3px 7px var(--ligth-border);
+}
+
+.menu-app .go-back i {
+  margin-left: 20px;
+  line-height: 50px;
+}
+
+.img-content {
+  background: var(--dark-background);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px var(--dark-border), -3px -3px 7px var(--ligth-border);
+  padding: 20px 20px 10px 20px;
+  margin-top: 20px;
+}
+
+.img-content figure {
+  margin: 0;
+  padding: 0;
+}
+
+.img-content figure img {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+.info-app {
+  color: var(--gray-text);
+  margin-top: 20px;
+}
+
+.description-app {
+  display: flex;
+  background: var(--dark-background);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px var(--dark-border), -3px -3px 7px var(--ligth-border);
+}
+
+.project-info {
+  min-width: 350px;
+  padding: 0px 20px;
+}
+
+.project-info a {
+  color: var(--blue-links);
+  text-decoration: none;
+}
+
+.info-app h2,
+.info-app h3 {
+  color: white;
+  margin: 0;
+}
+
+@media (max-width: 780px) {
+  .detailApp-container {
+    margin: 0;
+    width: 100%;
+  }
+  .img-content {
+    padding: 5px;
+  }
+
+  .description-app {
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+  }
+
+  .project-info {
+    padding: 0;
+    min-width: 100%;
+  }
+
+  .info-app {
+    text-align: center;
+  }
+}

@@ -1,0 +1,62 @@
+.services-container {
+  margin: auto;
+  width: 80%;
+}
+
+.crudService-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.list-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.item-service {
+  align-items: center;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+}
+
+.item-service:hover .icon {
+  color: var(--blue-links);
+}
+
+.delete-service {
+  float: right;
+  cursor: pointer;
+  margin-right: 20px;
+  color: var(--error-text);
+}
+
+.icon {
+  background: var(--dark-background);
+  border-radius: 50%;
+  box-shadow: inset 2px 2px 5px var(--dark-border),
+    inset -3px -3px 7px var(--ligth-border);
+  height: 30px;
+  margin: auto;
+  padding: 15px;
+  width: 30px;
+}
+
+.icon i {
+  margin-left: -4px;
+}
+
+@media (max-width: 750px) {
+  .list-services {
+    grid-template-columns: 1fr;
+  }
+}
