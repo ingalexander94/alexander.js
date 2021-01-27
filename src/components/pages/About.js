@@ -163,7 +163,7 @@ export const About = () => {
             (stateSkills.experience.length > 0 ? (
               <ListAbout list={experiences} type="job" id="experience" />
             ) : (
-              <p style={{ textAlign: "justify" }}>
+              <p className="experience-text">
                 Estoy en busca de mi primer empleo como desarrollador, no tengo
                 experiencia laboral en TI pero tengo experiencia en tecnologías
                 frontend y backend usandolas en mis proyectos personales como

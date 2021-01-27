@@ -199,6 +199,11 @@
   margin-left: 10px;
 }
 
+.experience-text {
+  text-align: justify;
+  padding: 0 30px;
+}
+
 @media (max-width: 800px) {
   .about-me {
     flex-direction: column-reverse;
