@@ -81,12 +81,10 @@ export const About = () => {
             <div className="description">
               <p>
                 <strong>
-                  <em>
-                    Mi nombre es Alexander Peñaloza evangelizador de JavaScript,
-                    estudiante de ingeniería de sistemas y desarrollador de
-                    aplicaciones para la web😍 soy Colombiano originario de la
-                    ciudad de Cúcuta.
-                  </em>
+                  Mi nombre es Alexander Peñaloza evangelizador de JavaScript,
+                  estudiante de ingeniería de sistemas y desarrollador de
+                  aplicaciones para la web😍 soy Colombiano originario de la
+                  ciudad de Cúcuta.
                 </strong>
                 <br />
                 <br />
@@ -101,17 +99,19 @@ export const About = () => {
                 </a>
               </p>
               <br />
-              <a
-                className="button"
-                href="https://co.linkedin.com"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Descargar CV
-              </a>
-              <Link className="button" to="/contact">
-                Hable conmigo
-              </Link>
+              <div className="links">
+                <a
+                  className="button"
+                  href="https://co.linkedin.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Descargar CV
+                </a>
+                <Link className="button" to="/contact">
+                  Hable conmigo
+                </Link>
+              </div>
             </div>
           </div>
         </div>

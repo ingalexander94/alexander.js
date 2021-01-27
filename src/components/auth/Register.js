@@ -72,6 +72,7 @@ export const Register = () => {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 type="email"
+                autoComplete="off"
                 placeholder="Correo"
               />
             </div>

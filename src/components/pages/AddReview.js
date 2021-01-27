@@ -34,7 +34,7 @@ export const AddReview = () => {
         then: Yup.string().required("El Nombre de Usuario es obligatorio"),
       }),
       message: Yup.string()
-        .max(230, "Máximo debe tener 150 caracteres")
+        .max(230, "Máximo debe tener 230 caracteres")
         .required("La Descripción es obligatoria"),
     }),
     onSubmit: async (testimonial) => {

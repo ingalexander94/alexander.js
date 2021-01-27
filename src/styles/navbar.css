@@ -158,3 +158,9 @@
     margin-top: 15px;
   }
 }
+
+@media (max-width: 329px) {
+  #menu ul {
+    width: 95%;
+  }
+}

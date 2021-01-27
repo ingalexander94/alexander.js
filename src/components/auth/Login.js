@@ -50,6 +50,7 @@ export const Login = () => {
                 onChange={formik.handleChange}
                 value={formik.values.email}
                 type="email"
+                autoComplete="off"
                 placeholder="Correo"
               />
             </div>

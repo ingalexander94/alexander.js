@@ -249,7 +249,6 @@ export const CrudApps = () => {
           </div>
         </div>
       </div>
-      s
     </>
   );
 };

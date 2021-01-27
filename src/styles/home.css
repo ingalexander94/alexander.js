@@ -51,14 +51,25 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1024px) {
   .home-content {
     flex-direction: column-reverse;
     text-align: center;
     width: 100%;
+    justify-content: center;
   }
 
   .user-info h1 {
     font-size: 30px;
+  }
+
+  .user-info p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 349px) {
+  .user-info p {
+    font-size: 15px;
   }
 }
