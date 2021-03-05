@@ -102,7 +102,7 @@ export const About = () => {
               <div className="links">
                 <a
                   className="button"
-                  href="https://co.linkedin.com"
+                  href="https://drive.google.com/file/d/1H4tsLaYD7GDL2XA-qcwuep_CIEYO9Y2q/view?usp=sharing"
                   rel="noreferrer"
                   target="_blank"
                 >
