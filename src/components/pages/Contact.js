@@ -53,9 +53,9 @@ export const Contact = () => {
         <div className="contact-container">
           <div className="info-contact">
             <CardContact
-              title="Twitter"
-              desc="@Ing_alexander94"
-              icon="fab fa-twitter"
+              title="Linkedin"
+              desc="Alexander Peñaloza"
+              icon="fab fa-linkedin"
             />
             <CardContact
               title="Correo"
@@ -64,7 +64,7 @@ export const Contact = () => {
             />
             <CardContact
               title="Ubicación"
-              desc="Cúcuta, Norte de Santander"
+              desc="Chinácota, Norte de Santander"
               icon="fas fa-map-marker-alt"
             />
           </div>

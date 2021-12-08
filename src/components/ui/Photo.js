@@ -42,11 +42,11 @@ export const Photo = () => {
         </a>
         <a
           className="button"
-          href="https://twitter.com/ing_alexander94"
+          href="https://linkedin.com/in/alexander-peñaloza-2944a012a"
           rel="noreferrer"
           target="_blank"
         >
-          <i className="fab fa-twitter"></i>
+          <i className="fab fa-linkedin"></i>
         </a>
       </div>
     </div>

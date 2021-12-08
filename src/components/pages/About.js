@@ -102,7 +102,7 @@ export const About = () => {
               <div className="links">
                 <a
                   className="button"
-                  href="https://drive.google.com/file/d/1H4tsLaYD7GDL2XA-qcwuep_CIEYO9Y2q/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1uKZwy6norW1T-5Zz3mfuS_nT-RIgL0vn/view?usp=sharing"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -160,7 +160,7 @@ export const About = () => {
             </div>
           )}
           {stateSkills.experience &&
-            (stateSkills.experience.length > 0 ? (
+            (experiences.length > 0 ? (
               <ListAbout list={experiences} type="job" id="experience" />
             ) : (
               <p className="experience-text">
