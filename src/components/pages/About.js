@@ -90,7 +90,7 @@ export const About = () => {
                 </strong>
                 <br />
                 <br />
-                Hago parte de los ganadores del concurso{" "}
+                Hago parte de uno de los equipos ganadores de la Hackathon{" "}
                 <a
                   href="https://www.ideadores.co/"
                   rel="noreferrer"
@@ -103,12 +103,15 @@ export const About = () => {
                 colaboración en la construcción de la aplicación Wopp, que logró
                 una inversión en el programa Shark Tank, es una prueba de mi
                 habilidad para trabajar en equipo y llevar proyectos desde su
-                concepción hasta su implementación exitosa. Como programador,
-                siempre me enfoco en la calidad del código y en crear soluciones
-                eficientes que cumplan con las necesidades de mis clientes y
-                usuarios. Si estás buscando un desarrollador full stack
-                confiable y talentoso, no dudes en contactarme. Estoy seguro de
-                que puedo ayudarte a llevar tu proyecto al siguiente nivel.
+                concepción hasta su implementación exitosa.
+                <br />
+                <br />
+                Como programador, siempre me enfoco en la calidad del código y
+                en crear soluciones eficientes que cumplan con las necesidades
+                de mis clientes y usuarios. Si estás buscando un desarrollador
+                full stack confiable y talentoso, no dudes en contactarme. Estoy
+                seguro de que puedo ayudarte a llevar tu proyecto al siguiente
+                nivel.
                 <br />
                 <br />
                 <a href="/about-me#jump" rel="noreferrer">

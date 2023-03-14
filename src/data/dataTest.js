@@ -1,3 +1,3 @@
-const servicesData = ["Frontend Jr", "Backend Jr"];
+const servicesData = ["Frontend", "Backend"];
 
 export { servicesData };
