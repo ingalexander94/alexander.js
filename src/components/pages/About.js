@@ -91,7 +91,11 @@ export const About = () => {
                 <br />
                 <br />
                 Hago parte de los ganadores del concurso{" "}
-                <a href="https://www.ideadores.co/" target="_blank">
+                <a
+                  href="https://www.ideadores.co/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Ideadores
                 </a>
                 , lo que demuestra mi capacidad para resolver problemas
