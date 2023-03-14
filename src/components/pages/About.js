@@ -81,17 +81,30 @@ export const About = () => {
             <div className="description">
               <p>
                 <strong>
-                  Mi nombre es Alexander Peñaloza evangelizador de JavaScript,
-                  estudiante de ingeniería de sistemas y desarrollador de
-                  aplicaciones para la web😍 soy Colombiano originario de la
-                  ciudad de Cúcuta.
+                  ¡Hola! Como desarrollador de software full stack, tengo
+                  experiencia en programación tanto del lado del cliente como
+                  del servidor, lo que me permite crear aplicaciones dinámicas y
+                  escalables. Soy un apasionado por la tecnología y siempre
+                  busco aprender nuevas herramientas y lenguajes de programación
+                  para mejorar mis habilidades.
                 </strong>
                 <br />
                 <br />
-                Soy fanático del desarrollo de software y me gusta estar
-                constantemente aprendiendo nuevas tecnologías que me permitan
-                solucionar problemas con TI que sean eficientes y modernas para
-                los clientes.
+                Hago parte de los ganadores del concurso{" "}
+                <a href="https://www.ideadores.co/" target="_blank">
+                  Ideadores
+                </a>
+                , lo que demuestra mi capacidad para resolver problemas
+                complejos de programación de manera efectiva y creativa. Mi
+                colaboración en la construcción de la aplicación Wopp, que logró
+                una inversión en el programa Shark Tank, es una prueba de mi
+                habilidad para trabajar en equipo y llevar proyectos desde su
+                concepción hasta su implementación exitosa. Como programador,
+                siempre me enfoco en la calidad del código y en crear soluciones
+                eficientes que cumplan con las necesidades de mis clientes y
+                usuarios. Si estás buscando un desarrollador full stack
+                confiable y talentoso, no dudes en contactarme. Estoy seguro de
+                que puedo ayudarte a llevar tu proyecto al siguiente nivel.
                 <br />
                 <br />
                 <a href="/about-me#jump" rel="noreferrer">
@@ -102,7 +115,7 @@ export const About = () => {
               <div className="links">
                 <a
                   className="button"
-                  href="https://drive.google.com/file/d/1uKZwy6norW1T-5Zz3mfuS_nT-RIgL0vn/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1u5uCXe8ZM0fhFgr12ZuxgRIllkvtNdgu/view?usp=sharing"
                   rel="noreferrer"
                   target="_blank"
                 >
